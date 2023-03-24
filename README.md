@@ -1,79 +1,28 @@
-# Module 5 Challenge: Password Generator
+Password Generator
+This is a simple password generator web application created using HTML, CSS, and JavaScript. It generates a strong and secure password based on the user's specifications such as password length, and types of characters to include.
 
-## Overview
+Features
+User can select the length of the password (between 8 and 128 characters).
+User can choose which character types to include in the password (uppercase letters, lowercase letters, numbers, and special characters).
+User can generate a new password with a click of a button.
+User can copy the generated password to the clipboard.
+Technologies Used
+HTML
+CSS
+JavaScript
+Getting Started
+To use this password generator, simply open the index.html file in your web browser. Alternatively, you can access the password generator via a web server.
 
-This week’s challenge requires you to create an application that an employee can use to generate a random password based on criteria they’ve selected by modifying starter code. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.
+Usage
+Select the desired password length by moving the slider or entering a value manually.
+Check the boxes of the character types you would like to include in the password.
+Click the "Generate Password" button.
+The generated password will be displayed in the text box.
+Click the "Copy to Clipboard" button to copy the password to your clipboard.
+Credits
+This password generator was created by [Your Name Here]. If you have any questions or suggestions, please contact me at [Your email address here].
 
-The password can include special characters. If you’re unfamiliar with these, see this [list of Password Special Characters from the OWASP Foundation](https://www.owasp.org/index.php/Password_special_characters).
+License
+This project is licensed under the MIT License. See the LICENSE.md file for details.
 
-## Instructions
-
-The following image shows the web application's appearance and functionality:
-
-![password generator demo](./assets/05-javascript-challenge-demo.png)
-
-
-* Generate a password when the button is clicked
-  * Present a series of prompts for password criteria
-    * Length of password
-      * At least 10 characters but no more than 64.
-    * Character types
-      * Lowercase
-      * Uppercase
-      * Numeric
-      * Special characters ($@%&*, etc)
-  * Code should validate for each input and at least one character type should be selected
-  * Once prompts are answered then the password should be generated and displayed in an alert or written to the page
-
-## Grading Requirements
-
-This challenge is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * The challenge should not produce any errors in the console when you inspect it using Chrome DevTools.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository that contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
-
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
----
-
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+https://florianemil.github.io/Password-Generator/          
